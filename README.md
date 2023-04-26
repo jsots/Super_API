@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+<!-- Headings -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to the World of Supers!
 
-## Available Scripts
+> This website allows you to view various heroes and villains alike. Here you will find their names, stats, alignemnt, and their publisher.
 
-In the project directory, you can run:
+## Intro
 
-### `npm start`
+I created a front-end application for an API that contains information on various Supers (heroes and villains). This website offers full CRUD functionality with the API, allowing you to directly manipulate the back-end from the front-end!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Deployed Site](https://main--singular-raindrop-95fa30.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here, you will be able to view the various Supers and edit their information, add a new super, or delete the current one. 
 
-### `npm test`
+## Installation
+1. Fork and clone this repo
+2. Install the dependencies by typing in the command below:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm i
+```
+3. Once they have been downloaded, you can launch a local version of the site by typing the following command:
 
-### `npm run build`
+```
+npm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Updating a Super
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you would like to update the information for any of the Supers in the database, you can enter the information into the input fields. Once you have entered everything (**and make sure you enter all the fields**), then hit enter or submit. If you fail to fill out a field, the information will be cleared. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Creating a Super
 
-### `npm run eject`
+In order to create a Super, you need to enter their information into the fields provided. If any fields are left blank, they will just be empty in the fields above. None of the information is required in order to create an entry. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deleting a Super
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deleting a Super is as easy as clicking the button! It will delete the Super that you are currently viewing. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Resources
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+- [Super API](https://superhero-api.herokuapp.com/api/heroes)
+- [React](https://react.dev/blog/2023/03/16/introducing-react-dev)
